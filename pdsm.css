@@ -1,0 +1,285 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    font-family:sans-serif;
+    margin-top: 20px;
+    background-color: #3151FB;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+a:hover{
+    color:#626262;
+    cursor: pointer;
+}
+button{
+    height: 50px;
+    width: 150px;
+    color:#626262;
+    background: #FFD43D;
+    border-radius: 5px;
+    border: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+main{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    background-color: #3151FB;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.data{
+    margin-top: 100px;
+    margin-left: 380px;
+    color: #ffffff;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+.data h2{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.data p{
+    margin-left: 40px;
+    width: 440px;
+    text-align: center;
+}
+.box{ 
+    display: flex; 
+    justify-content: center;
+    gap: 1em;
+}
+.databox1{
+    height: 260px;
+    width: 350px;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    margin-top: 140px;
+}
+.databox2{
+    height: 340px;
+    width: 390px;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.intuitivebox{
+    height: 300px;
+    width: 400px;
+    background-color: #c4c4c4;
+    box-shadow: 0px 4px 50px #C4C4C4;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.intuitive{
+    line-height: 30px;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: sans-serif;
+    width: 370px;
+    color: #4b4b4b;
+}
+.intuitive h2{
+    color:  #3151FB;
+    ;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    background-color:#35358C;
+
+}
+.encounter{
+    line-height: 30px;
+    margin-right: 100px;
+    margin-top: 150px;
+    font-family: sans-serif;
+    width: 360px;
+    color: #ffffff;
+}
+.introbox{
+    height: 300px;
+    width: 400px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin: 120px;
+}
+.section4{
+    background: #FFA842;
+    display: flex;
+    justify-content: space-between;
+}
+.section5{
+    display: flex; 
+    justify-content:center;
+    flex-direction: column;  
+    background: #3151FB;
+
+}
+.billing{
+   margin-top:40px;
+   padding: 50px;
+   margin-left: 400px;
+   text-align: center;
+   line-height: 30px;
+   width: 440px;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #ffffff;
+}
+.billingbox{
+    height: 200px;
+    width: 400px;
+    background-color:#ffffff;
+    margin-left: 450px;
+    margin-bottom: 30px;
+}
+.smartbox{
+    height: 250px;
+    width: 400px;
+    background-color: #c4c4c4;
+    margin-left: 30px;
+}
+.section6{
+    display: flex;
+    justify-content: space-between;
+    background-color:#3153fbb0
+}
+.reportbox{
+    height: 250px;
+    width: 400px;
+    background-color:#ffffff;
+    margin: 120px;
+}
+
+
+
+@media screen and (max-width:660px){
+     header{
+        display: none;
+        width: 100%;
+    }
+    .main{
+        margin: 0px;
+        padding: 0px;
+    }
+    .section1{
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        width: 230px;
+        height: 200px;
+    } 
+    .data{
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+    .data h2{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .data p{
+        margin-left: 0px;
+        width: 200px;
+        font-size: 16px;
+    }
+    .box{
+        display: none;
+    }
+    .section2{
+        display: flex;
+        flex-direction:column;
+        width: 230px;
+        height: 100%;
+        margin:0px;
+    }
+    .intuitivebox{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .intuitive{
+        width: 200px;
+        /* font-size: 18px; */
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .section3{
+        display: flex;
+        flex-direction:column;
+        width: 230px;
+        height: 100%;
+        margin-top:20px;
+    }
+    .encounter{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .introbox{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .section4{
+        display: flex;
+        flex-direction:column;
+        width: 230px;
+        height: 100%;
+        margin-top:10px;
+    }
+    .section5{
+        display: flex;
+        flex-direction:row;
+        width: 230px;
+        height:100%;
+        margin-top:10px;
+    }
+    .billing{
+        /* width: 180px; */
+        margin-top: 0px;
+
+    }
+    .smartbox{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    } 
+     .section6{
+        display: flex;
+        flex-direction:column;
+        width: 230px;
+        height: 100%;
+        margin-top:10px;
+    }
+    .reportbox{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    } 
+    html{
+        overflow-x:hidden;
+    }
+}
